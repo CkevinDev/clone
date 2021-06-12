@@ -1,0 +1,21 @@
+{
+  "name": "instagram",
+  "version": "0.0.1",
+  "description": "Servidor de la aplicacion",
+  "main": "index.js",
+  "author": "kevin cerrinos",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.25.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.0",
+    "mongoose": "^5.12.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
